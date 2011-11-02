@@ -1,0 +1,308 @@
+﻿/* General */
+body {
+	background:#DBDFC8 none repeat scroll 0 0;
+	font-family:arial,helvetica,verdana,sans-serif;
+	font-size:13px;
+	height:100%;
+	margin:0;
+}
+
+table {
+	/* cellspacing */
+	border:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+}
+table td {
+	/* cellpadding */
+	padding:0px;
+}
+
+/* Main table */
+.root {
+	width:800px;	
+}
+
+
+/* Header */
+.wcn_header {
+	background: url('/wcn_img/grass_4_web.png');
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position:center;
+	position: relative;
+	height:75px;
+	width:800px;
+	margin:0px;
+	border:0;
+	vertical-align:top;
+	clear:both;
+}
+.wcn_header .logo {
+	position:absolute;
+	top:13px;
+	left:28px;
+	width:50px;
+	height:50px;
+	border:0;
+}
+.wcn_header .title {
+	position:absolute;
+	top:17px;
+	left:94px;
+	width:450px;
+	height:40px;
+	border:0;
+}
+.wcn_header .search {
+	position:absolute;
+	top:22px;
+	right:5px;
+	width:220px;
+	height:35px;
+}
+.wcn_header img {
+	width:100%;
+	height:100%;
+	border:0;
+}
+
+/* Body */
+.wcn_body {
+	background-color: white; 
+	position: relative;
+	height:500px;
+	width:800px;
+	clear:both;
+}
+
+/* Content */
+.wcn_body .main {
+	position:absolute;
+	top:0px;
+	left:100px;
+	background:white; 
+	width:700px;
+	height:500px;
+}
+
+
+/* Navigation */
+.wcn_body .nav {
+	background: url('/wcn_img/sand_3_web.png');
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position:center;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height:500px;
+	width:100px;
+}
+.wcn_nav {
+	position:absolute;
+	top:70px;
+	left:10px;
+	height:250px;
+	width:80px;
+}
+.wcn_nav ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 0 8px;
+	padding:0;
+	width:80px;
+}
+.wcn_nav li {
+	background-color:#C5A775;
+	border-bottom:1px solid #AA8A57;
+	border-left:1px solid #987848;
+	border-right:1px solid #987848;
+	text-align:left;
+}
+.wcn_nav a {
+	color:#515151;
+	margin:0;
+	padding:0 0 0 10px;
+	text-decoration:none;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:16px;
+	color:#515151;
+	margin:0;
+}
+.wcn_nav a:hover {
+	color:#D7D7D7;
+}
+.wcn_nav li.toplink {
+	border-top:3px solid #AA8A57;
+}
+.wcn_nav li.bottomlink {
+	border-bottom:3px solid #AA8A57;
+}
+
+/* Main */
+.wcn_main {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:700px;
+	height:500px;
+}
+
+
+
+/* Contact form */
+.contact_root {
+	background-image:url('/wcn_img/Denali_pale_700.jpg');
+
+	position:relative;
+	width:700px;
+	height:500px;
+}
+.contact_form {
+	position:absolute;
+	width:530px;
+	height:400px;
+	top:50px;
+	left:70px;
+}
+.contact_form_inputs label {
+	position:absolute;
+	font-weight:bold;
+	text-align:right;
+	width:50px;
+	height:18px;
+	left:60px;
+	font-size:11px;
+	color:#5B5B5B;
+}
+.contact_form_inputs input {
+	position:absolute;
+	width:310px;
+	height:18px;
+	left:115px;	
+}
+.contact_label_message {
+	top:9px;
+}
+.contact_input_message {
+	font-family:Arial,Helvetica,sans-serif;
+	position:absolute;
+	width:310px;
+	height:133px;
+	top:5px;
+	left:115px;	
+}
+.contact_label_name {
+	top:154px;
+}
+.contact_input_name {
+	top:150px;
+}
+.contact_label_email {
+	top:184px;
+}
+.contact_input_email {
+	top:180px;
+}
+.contact_captcha {
+	position:absolute;
+	width:330px;
+	height:130px;
+	top:210px;
+	left:112px;
+}
+.contact_input_submit {
+	position:absolute;
+/*	width:250px; */
+	height:28px;
+	top:350px;
+	left:115px;
+	
+	overflow:visible;
+	padding:0 7px;
+	width:auto;
+}
+
+.action_root {
+	position:relative;
+	width:700px;
+	height:1500px;	
+	margin:0px;
+	border:0px;
+	
+}
+
+/* Footer */
+.wcn_footer {
+	background: url('/wcn_img/water_5_web.png');
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position:center;
+	position: relative;
+	margin:0px;
+	border:0px;
+	width:800px;
+	height:35px;
+}
+.footer_nav {
+	position:absolute;
+	top:10px;
+	left:250px;
+	width:300px;
+	height:30px;
+	text-align:center;
+}
+.footer_nav a {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:white;
+}
+.footer_nav a:hover {
+	color:#73C4C8;
+}
+.footer_nav td {
+	color:white;
+}
+
+.donation_text {
+	position:absolute;
+	width:400px;
+	top:30px;
+	left:140px;
+	text-align:justify;
+	text-indent:10px;
+	/* font-weight:bold; */
+	font-style:italic;
+}
+.donation_text a {
+	text-decoration:none;
+	color:#006F00;
+}
+.donation_text a:hover {
+	color:#00CC00;	
+}
+.donation_paypal {
+	position:absolute;
+	top:175px;
+	left:280px;
+	width:120px;
+	height:50px;
+}
+
+.body_donate {
+	background-image:url('/wcn_img/Denali_pale_700.jpg');
+	width:700px;
+	height:500px;
+}
+
+.debug {
+	font-family:"Courier New";
+}
